@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class finishLevel : MonoBehaviour
+public class FinishLevelClass : MonoBehaviour
 {
     public GameObject finishLevelUI;
     public string nextLevelName;

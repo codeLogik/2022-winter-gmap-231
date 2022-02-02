@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class killRespawn : MonoBehaviour
+public class KillRespawnClass : MonoBehaviour
 {
     private Transform _respawnPoint;
 

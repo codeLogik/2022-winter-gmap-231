@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlatformController2D : MonoBehaviour
+public class PlatformController2DClass : MonoBehaviour
 {
     // Variables to allow configuration of script
     public float walkSpeed = 10f;

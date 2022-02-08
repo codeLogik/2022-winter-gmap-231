@@ -10,8 +10,6 @@ public class PlatformerController2DClass : MonoBehaviour
     public float groundCheckRadius = .2f;
     public LayerMask groundMask;
 
-    public Animator anims;
-
     private bool _isGrounded;
     private float _moveInput;
     private float _scaleX;
@@ -29,7 +27,6 @@ public class PlatformerController2DClass : MonoBehaviour
     {
         _moveInput = Input.GetAxis("Horizontal");
 
-        anims.SetBool("Jump", !_isGrounded);
         _isGrounded = Physics2D.OverlapCircle(groundCheck.position, groundCheckRadius, groundMask);
 
         if (Input.GetButtonDown("Jump") && _isGrounded)
@@ -59,7 +56,6 @@ public class PlatformerController2DClass : MonoBehaviour
     private void Move()
     {
         _rigidbody.velocity = new Vector2(_moveInput * walkSpeed, _rigidbody.velocity.y);
-        anims.SetFloat("MoveSpeed", Mathf.Abs(_moveInput));
     }
 
     private void Jump()

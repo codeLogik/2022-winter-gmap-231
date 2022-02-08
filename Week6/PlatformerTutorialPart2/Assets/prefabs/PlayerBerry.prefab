@@ -137,8 +137,8 @@ GameObject:
   - component: {fileID: 813285979829232029}
   - component: {fileID: 813285979829232028}
   - component: {fileID: 813285979829232027}
-  - component: {fileID: 813285979829232016}
   - component: {fileID: 813285979829232017}
+  - component: {fileID: 3519208434990645747}
   m_Layer: 0
   m_Name: PlayerBerry
   m_TagString: Player
@@ -248,26 +248,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &813285979829232016
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 813285979829232026}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e8f8bb17414dcb44689ea39200e782c1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  walkSpeed: 4
-  jumpForce: 8
-  groundCheck: {fileID: 813285980828248364}
-  groundCheckRadius: 0.2
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 64
-  anims: {fileID: 813285979290475317}
 --- !u!114 &813285979829232017
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -280,6 +260,26 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ffe26689fd76a7a4e9e2cf5493d03c2f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3519208434990645747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813285979829232026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf1c1b07c7292db4ca7a454708662c40, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  walkSpeed: 4
+  jumpForce: 8
+  groundCheck: {fileID: 813285980828248364}
+  groundCheckRadius: 0.2
+  groundMask:
+    serializedVersion: 2
+    m_Bits: 64
+  anims: {fileID: 813285979290475317}
 --- !u!1 &813285980090167230
 GameObject:
   m_ObjectHideFlags: 0

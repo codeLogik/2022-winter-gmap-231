@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9489d009cf2394818ab717f7e9028337, type: 3}
   m_Name: Machete
   m_EditorClassIdentifier: 
-  weaponName: Machete
-  description: Nice chopper blade
+  itemName: Machete
+  itemDescription: Medium size chopping blade
+  uiIcon: {fileID: 0}
+  prefab: {fileID: 0}
   cost: 85
   damage: 70
-  weaponSprite: {fileID: 0}
+  damageType: 0

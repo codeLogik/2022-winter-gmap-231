@@ -33,7 +33,7 @@ public class DemoMouseClick : MonoBehaviour
             {
                 // Update the UI to show the selected weapon stats
                 var weaponData = hit.transform.GetComponent<DemoWeapon>().weaponData;
-                _nameText.text = $"Name: {weaponData.weaponName}";
+                _nameText.text = $"Name: {weaponData.itemName}";
                 _costText.text = $"Cost: {weaponData.cost}";
                 _damageText.text = $"Damage: {weaponData.damage}";
 

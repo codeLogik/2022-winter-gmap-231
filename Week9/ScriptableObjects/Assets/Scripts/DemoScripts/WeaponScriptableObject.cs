@@ -2,12 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "New Weapon Data", menuName = "Weapon Data", order = 1)]
-public class WeaponScriptableObject : ScriptableObject
+[CreateAssetMenu(fileName = "New Weapon Data", menuName = "Items/Weapon Data", order = 1)]
+public class WeaponScriptableObject : ItemScriptableObject
 {
-    public string weaponName;
-    public string description;
     public int cost;
     public int damage;
-    public Sprite weaponSprite;
+    public DamageType damageType;
 }

@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9489d009cf2394818ab717f7e9028337, type: 3}
   m_Name: Dagger
   m_EditorClassIdentifier: 
-  weaponName: Dagger
-  description: Pointing small dagger to stab things with
+  itemName: Dagger
+  itemDescription: Liht weight double sidded dagger
+  uiIcon: {fileID: 0}
+  prefab: {fileID: 0}
   cost: 25
   damage: 30
-  weaponSprite: {fileID: 0}
+  damageType: 1

@@ -12,8 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37f1067194c264c45a69087b750fe310, type: 3}
   m_Name: ScaleMailArmor
   m_EditorClassIdentifier: 
-  armorName: Scale Mail Armor
-  description: Scale based lighter armor
+  itemName: Scale Mail Armor
+  itemDescription: Medium weight scale based armor
+  uiIcon: {fileID: 0}
+  prefab: {fileID: 0}
   damageReduction: 40
   cost: 65
   armorSprite: {fileID: 0}
+  resistances: 0000000001000000

@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9489d009cf2394818ab717f7e9028337, type: 3}
   m_Name: BroadAxe
   m_EditorClassIdentifier: 
-  weaponName: Broad Axe
-  description: Double bladed axe for killing things
+  itemName: Broad Axe
+  itemDescription: Doubld sided larg axe
+  uiIcon: {fileID: 0}
+  prefab: {fileID: 0}
   cost: 100
   damage: 120
-  weaponSprite: {fileID: 0}
+  damageType: 0

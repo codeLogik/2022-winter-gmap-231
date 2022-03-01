@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9489d009cf2394818ab717f7e9028337, type: 3}
   m_Name: Mace
   m_EditorClassIdentifier: 
-  weaponName: Mace
-  description: Blunt pointy thing to beat someone with
+  itemName: Hand Mace
+  itemDescription: Medium weight single handed mace
+  uiIcon: {fileID: 0}
+  prefab: {fileID: 0}
   cost: 40
   damage: 60
-  weaponSprite: {fileID: 0}
+  damageType: 2

@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37f1067194c264c45a69087b750fe310, type: 3}
   m_Name: FullPlateArmor
   m_EditorClassIdentifier: 
-  armorName: Full Plate
-  description: Heavy full plate armor
+  itemName: Full Plate Armor
+  itemDescription: Heavy armor made of full plate
+  uiIcon: {fileID: 0}
+  prefab: {fileID: 0}
   damageReduction: 75
   cost: 150
+  armorSprite: {fileID: 0}
+  resistances: 000000000100000002000000

@@ -12,8 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9489d009cf2394818ab717f7e9028337, type: 3}
   m_Name: Axe
   m_EditorClassIdentifier: 
-  weaponName: Axe
-  description: Single bladed axe
+  itemName: Axe
+  itemDescription: Single sided axe
+  uiIcon: {fileID: 0}
+  prefab: {fileID: 0}
   cost: 50
   damage: 85
-  weaponSprite: {fileID: 0}
+  damageType: 0

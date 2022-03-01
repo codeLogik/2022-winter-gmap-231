@@ -12,7 +12,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37f1067194c264c45a69087b750fe310, type: 3}
   m_Name: StuddedArmor
   m_EditorClassIdentifier: 
-  armorName: Studded Leather
-  description: Studded leather light armor
+  itemName: Studded Leather Armor
+  itemDescription: Lightweight leather armor
+  uiIcon: {fileID: 0}
+  prefab: {fileID: 0}
   damageReduction: 25
   cost: 30
+  armorSprite: {fileID: 0}
+  resistances: 00000000
